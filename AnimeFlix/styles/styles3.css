@@ -1,0 +1,63 @@
+:root{
+    --titleFont: "Luckiest Guy";
+    --subTitlesFont:"Patrick Hand SC";
+    --redColor: rgb(182,28,28);
+    --colorYellow:#FFD700;
+}
+header a{
+    background-color: red;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+}
+h2{
+    color: var(--colorYellow);
+    text-align: right;
+    padding-right: 300px;
+    font-size: 50px;
+    font-family: var(--titleFont);
+    position:relative;
+    padding-left: 350px;
+}
+.form-rows{
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+.form-rows label{
+    color: var(--redColor);
+    display: block;
+    font-size: 22px;
+    font-family: var(--subTitlesFont);
+}
+.form-rows input {
+    width: 400px;
+    height: 40px;
+}
+::placeholder{
+   font-family: var(--subTitlesFont);
+}
+.form-rows select{
+    width: 410px;
+    height: 50px;
+}
+
+.form-rows2{
+    padding-left: 300px;
+}
+.form-rows2 button{
+    background-color: var(--redColor);
+    height: 50px;
+    width: 180px;
+    color: var(--colorYellow);
+    font-size: 25px;
+    font-family: var(--subTitlesFont);
+    border-radius: 20px;
+}
+.alerts{
+    color: var(--colorYellow);
+    font-family: var(--subTitlesFont);
+    font-size: 25px;
+}

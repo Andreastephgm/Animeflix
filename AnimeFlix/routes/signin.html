@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/72a87f362c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Luckiest+Guy&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Luckiest+Guy&family=Patrick+Hand+SC&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+    
+</head>
+<header>
+    <a><i class="fa-solid fa-arrow-left"></i></a>
+</header>
+<body>
+    <link rel="stylesheet" href="/AnimeFlix/styles/styles3.css">  
+    <div class="container">
+        <img src="/AnimeFlix/imagenes/onePieceLog.png"/>
+        <div>
+            <h2>Sign in</h2>
+            <form action="" method="get"  id="form" class="fill">
+                <div class="form-rows">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Name" required/>
+                </div>     
+                <div class="form-rows">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Email" required/>
+                </div>   
+                <div class="form-rows">
+                    <label for="password">Password</label>
+                    <input type="text" id="password" placeholder="Password" required/>
+                </div> 
+                <div class="form-rows">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="" required></option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Ecuador">Ecuador</option>
+                    </select>
+                </div>  
+                <div class="form-rows2">
+                    <button type="submit" id="submit">Create new user</button>
+                </div>     
+            </form>   
+            <p class="alerts" id="alerts"></p>     
+        </div>
+    </div>
+    <script src="/AnimeFlix//scripts/signin.js"></script>   
+</body>
+</html>
