@@ -2,7 +2,7 @@
 :root{
     --titleFont: "Luckiest Guy";
     --subTitlesFont:"Patrick Hand SC";
-    --redColor: rgb(182,28,28);
+    --redColor: rgba(182,28,28,0.8);
     --colorYellow:#FFD700;
 }
 *{
@@ -187,7 +187,7 @@ header i{
     padding-bottom: 10px;
 }
 footer{
-    background-color: var(--redColor);
+    background-color:var(--redColor);
     height: 150px;
     padding:0 px;
     display: flex;
