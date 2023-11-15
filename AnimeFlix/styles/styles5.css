@@ -1,5 +1,146 @@
-body{
-    background-color: red;
+:root{
+    --titleFont: "Luckiest Guy";
+    --subTitlesFont:"Patrick Hand SC";
+    --redColor: rgb(182,28,28);
+    --colorYellow:#FFD700;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.01cm solid black;
+    height: 80px;;
+}
+
+header h2{
+    color: white;
+    font-family: var(--titleFont);
+    font-size: 40px;
+    padding: 30px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    
+}
+
+header nav li a{
+    padding-right: 20px;
+    color:  var(--colorYellow);
+    font-size: 25px;
+    font-family: var(--subTitlesFont);
+    text-decoration: none;
+}
+header nav li a:hover{
+    padding-right: 20px;
+    color:  var(--redColor);
+    font-size: 25px;
+    font-family: var(--subTitlesFont);
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+.premium{
+    width: 100%;
+    height: 400px;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5) 0%,rgba(0,0,0,.30) 100%),
+    url(/AnimeFlix/imagenes/BLEACH\ TYBW.webp),
+    url(/AnimeFlix/imagenes/Tokyo-Revengers.jpeg),
+    url(/AnimeFlix/imagenes/boku.webp);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position:
+      bottom right,
+      center center,
+      bottom left;
+      background-size: 450px 400px ;
+      box-shadow: inset 100px 400px 400px 200px rgba(0,0,0,0.8);
+      
+}
+.premiumContent{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.premiumContent h2{
+    color: coral;
+    font-family: var(--titleFont);
+    font-size: 50px;
+}
+.premiumContent button{
+    color: var(--colorYellow);
+    background-color:crimson;
+    font-family: var(--subTitlesFont);
+    font-size: 30px;
+}
+.premiumContent p{
+    color: antiquewhite;
+    width: 400px;
+    font-family: var(--subTitlesFont);
+    font-size: 20px;
+}
+.premiumAds{
+    color: coral;
+    font-family: var(--subTitlesFont);
+    font-size: 50px;
+    text-align: center;
+}
+.premiumAds2{
+    display: flex;
+    gap: 10em;
+}
+.premiumAds2 img{
+    width: 500px;
+    height: 300px;
+}
+.premiumAds2 ul{
+    list-style:none;
+    justify-content: space-between;  
+}
+.premiumAds2 ul li{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: var(--subTitlesFont);
+    width: 200px;
+}
+
+.lista2 i, .lista1 i{
+    color: var(--colorYellow);
+    font-size: 30px;
+    align-items: center;
+    width: 50px;
+    justify-content: center;
+    padding-left: 33px;
+}
+.premiumAds3{
+    background-image: linear-gradient(rgba(0,0,0,0.5) 0%,rgba(0,0,0,.30) 100%), url(/AnimeFlix/imagenes/premiumImage2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    height: 500px;
+    box-shadow: inset 400px 80px 200px rgba(0,0,0,1.8);
+}
+.premiumAds3 h3{
+    color:coral;
+    font-size: 80px;
+    font-family: var(--subTitlesFont);
+}
+.premiumAds3 p{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: var(--subTitlesFont);
+    width: 400px;
+    text-align: justify;
+}
+.premiumAds4{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
 
   

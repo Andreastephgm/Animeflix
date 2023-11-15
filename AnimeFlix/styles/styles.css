@@ -41,6 +41,13 @@ header nav li a{
     font-family: var(--subTitlesFont);
     text-decoration: none;
 }
+header nav li a:hover{
+    padding-right: 20px;
+    color:  var(--redColor);
+    font-size: 25px;
+    font-family: var(--subTitlesFont);
+    text-decoration: none;
+}
 
 .section1{
     padding-bottom: 20px;

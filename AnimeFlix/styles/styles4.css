@@ -4,6 +4,48 @@
     --redColor: rgb(182,28,28);
     --colorYellow:#FFD700;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.01cm solid black;
+    height: 80px;;
+}
+
+header h2{
+    color: white;
+    font-family: var(--titleFont);
+    font-size: 40px;
+    padding: 30px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    
+}
+header nav li a{
+    padding-right: 20px;
+    color:  var(--colorYellow);
+    font-size: 25px;
+    font-family: var(--subTitlesFont);
+    text-decoration: none;
+}
+header nav li a:hover{
+    padding-right: 20px;
+    color:  var(--redColor);
+    font-size: 25px;
+    font-family: var(--subTitlesFont);
+    text-decoration: none;
+}
+header nav li a:active{
+    padding-right: 20px;
+    color:  var(--redColor);
+    font-size: 25px;
+    font-family: var(--subTitlesFont);
+    text-decoration: none;
+}
 body{
     background-color: black;
 }
