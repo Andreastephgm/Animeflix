@@ -58,7 +58,7 @@ body{
       center center,
       bottom left;
       background-size: 450px 400px ;
-      box-shadow: inset 100px 400px 400px 200px rgba(0,0,0,0.8);
+      box-shadow: inset 100px 400px 400px 200px rgba(0,0,0,0.65);
       
 }
 .premiumContent{
@@ -123,7 +123,7 @@ body{
     background-size: cover;
     padding-top: 20px;
     height: 500px;
-    box-shadow: inset 400px 80px 200px rgba(0,0,0,1.8);
+    box-shadow: inset 300px 100px 200px rgba(0,0,0,1.8);
 }
 .premiumAds3 h3{
     color:coral;
@@ -141,6 +141,157 @@ body{
     padding-left: 80px;
     padding-top: 20px;
 }
+.premiumAds5{
+    display: flex;
+}
+.premiumAds5 .p1{
+    color: coral;
+    font-size: 75px;
+    font-family: var(--subTitlesFont);
+    padding-left: 100px;
+}
+.premiumAds5 .p1 i{
+    padding-right: 20px;
+}
+.premiumAds5 .p2{
+    color: white;
+    font-size: 20px;
+    font-family: var(--subTitlesFont);
+    padding-left: 100px;
+}
+.premiumAds5 img{
+    padding-right: 20px;
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.plans{
+    background-image: url(/AnimeFlix/imagenes/star\ background.jpeg);
+    width: cover;
+    height: 900px;
+    box-shadow: inset 0px 100px 200px 100px rgba(0,0,0,1.0);
+}
+.plans h2{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-family: var(--titleFont);
+    font-size: 60px;
+}
+.planContainer{
+    display: flex;
+    gap: 3em;
+    padding-left: 220px;
+    text-align: center;   
+}
+.containerPlan1 img{
+    width: 70px;
+    height: 65px;
+    left: 250px;
+    position: absolute;
+}
+.containerPlan2 img{
+    width: 70px;
+    height: 65px;
+    left: 600px;
+    position: absolute;
+}
+.containerPlan3 img{
+    width: 70px;
+    height: 55px;
+    left: 950px;
+    position: absolute;
+}
+
+.containerPlan{
+    display: flex;
+}
+.planContainer .plan1,
+.planContainer .plan2, 
+ .planContainer .plan3 {
+    background-color: rgba(0,0, 0, 0.8);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+.planContainer .plan1 h3,
+.planContainer .plan2 h3, 
+ .planContainer .plan3 h3{
+    color: var(--colorYellow);
+    font-family: var(--subTitlesFont);
+    font-size: 40px;
+ }
+.planContainer .plan1 .price, .plan2 .price, .plan3 .price{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: var(--subTitlesFont);
+}
+.planContainer .plan1 .taxes, .plan2 .taxes, .plan3 .taxes{
+    color: whitesmoke;
+    font-size: 10px;
+}
+.planContainer .plan1 button, .plan2 button, .plan3 button{
+    background-color: var(--colorYellow);
+    font-family: var(--subTitlesFont);
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.planContainer .plan1 .skip, .plan2 .skip, .plan3 .skip{
+    color: white;
+    font-size: 17px;
+    font-family: var(--subTitlesFont);
+}
+.planContainer .plan1 .watch, .plan2 .watch, .plan3 .watch{
+    color: white;
+    font-size: 17px;
+    font-family: var(--subTitlesFont);
+}
+.planContainer .plan1 .plus, .plan2 .plus, .plan3 .plus{
+    color: white;
+    font-size: 17px;
+    font-family: var(--subTitlesFont);
+}
+.planContainer .plan1 .stream, .plan2 .stream, .plan3 .stream{
+    color: white;
+    font-size: 17px;
+    font-family: var(--subTitlesFont);
+}
+footer{
+    background-color:var(--redColor);
+    margin-bottom: 0;
+    padding:0 px;
+}
+.p7{
+    color: var(--colorYellow);
+    padding-left: 20px;
+    font-family: var(--subTitlesFont);
+    font-size: 30px;
+}
+.footerLists{
+    display: flex;
+    gap: 12em;
+}
+.footerLists ul{
+    list-style: none;
+}
+.footerLists ul li{
+    text-decoration: none;
+    color: var(--colorYellow);
+}
+.footerLists ul a{
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: var(--subTitlesFont);
+    font-size: 20px;
+}
+footer img{
+    width: 200px;
+    height: 150px;
+}
 
 
-  
+
