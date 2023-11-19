@@ -104,8 +104,10 @@ header nav li a:hover{
     display: flex;
     align-items: center;
     position: relative;
+    overflow: hidden;
+    scroll-behavior: smooth;
 }
-.buttonLeft, .buttonLeft2, .buttonLeft3{
+ .buttonLeft{
     position: absolute;
     border: none;
     background-color: rgb(0, 0, 0, 0.3);
@@ -122,6 +124,9 @@ header nav li a:hover{
     font-size: 40px;
     color: white;
     right:0;
+}
+.buttonRight:hover, .buttonLeft:hover{
+    background-color: rgba(0,0,0,.80);
 }
 header i{
     color: aqua;
@@ -157,7 +162,7 @@ header i{
     padding-right: 20px;
 }
 
-.series img, .seriesShonen img, .seriesShoujo img, .seriesShonen img{
+.series img, .seriesShonen img{
     width: 240px;
     height: 200px;
 }
@@ -195,34 +200,37 @@ header i{
 }
 footer{
     background-color:var(--redColor);
-    height: 150px;
+    margin-bottom: 0;
     padding:0 px;
-    display: flex;
 }
-footer a{
-    text-decoration: none;
+.p7{
     color: var(--colorYellow);
+    padding-left: 20px;
     font-family: var(--subTitlesFont);
-    margin-left: 10px;
+    font-size: 30px;
 }
-footer i{
-    padding-right: 10px;
-    color: antiquewhite;
-    margin-left: 20px;
-}
-
 .footerLists{
     display: flex;
+    gap: 15em;
 }
-.about{
-    margin-left: 300px;
+.footerLists ul{
+    padding-left: 20px;
     list-style: none;
 }
-.imgFooter{
+.footerLists ul li{
+    text-decoration: none;
+    color: var(--colorYellow);
+}
+.footerLists ul a{
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: var(--subTitlesFont);
+    font-size: 20px;
+}
+footer img{
+    width: 200px;
     height: 150px;
-    margin-left: 200px;
-    margin-right: 20px;
-  
 }
 
 @media(max-width: 768px){
