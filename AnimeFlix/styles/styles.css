@@ -67,6 +67,7 @@ header nav li a:hover{
     color: antiquewhite; 
     width:35%;
     padding-left: 20px;
+    padding-bottom: 20px;
     text-align: justify;  
     font-family: var(--subTitlesFont);
 }
@@ -79,26 +80,43 @@ header nav li a:hover{
     width: 300px;
     height: 400px;
 }
-.button1{
-   background-color:var(--redColor);
-   font-family: var(--titleFont);
-   font-size: 20px;
-   width: 20%;
-   height: 40px;
-   border-radius: 10px;
-   border-width: 0.1cm;
-   border-color: var(--colorYellow);
-   margin-left: 30px;
-   color:  black;
-}
-.eye{
-    color: antiquewhite;
-    size-adjust:calc(-20%);
+.play{
+    font-family: var(--subTitlesFont);
+    color: white;
+    margin-left: 30px;
+    width: 0;
+    color: var(--colorYellow);
 }
 .section1 i{
-    
     font-size: 2em;
     padding: 0.5em;
+}
+.section11{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.section11 a{
+    color: var(--colorYellow);
+
+}
+.section12{
+    display: flex;
+   align-items: center;
+   background-color: var(--redColor);
+   border-color: white;
+   width: 260px;
+   height: 50px;
+   gap: 3em;
+   margin-left: 20px;
+   border-radius: 15px;
+   font-family: var(--subTitlesFont);
+   font-size: larger;
+}
+.section12 p{
+  color: white;
+
+ 
 }
 .series{
     display: flex;
