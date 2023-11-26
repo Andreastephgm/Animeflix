@@ -57,6 +57,12 @@ header nav li a:hover{
     position:relative;
     
 }
+.containerTitle{
+    display: flex;
+    gap: 70em;
+    align-content: center;
+}
+
 .h31{
     font-size: 50px;
     font-family: var(--subTitlesFont);
@@ -115,8 +121,6 @@ header nav li a:hover{
 }
 .section12 p{
   color: white;
-
- 
 }
 .series{
     display: flex;
@@ -127,6 +131,7 @@ header nav li a:hover{
     width: 240px;
     height: 200px;
 }
+
 .popular{
     display: flex;
     position: relative;
@@ -151,6 +156,7 @@ header nav li a:hover{
     color: white;
     right:0;
 }
+
 .buttonRight:hover, .buttonLeft:hover{
     background-color: rgba(0,0,0,.80);
 }
