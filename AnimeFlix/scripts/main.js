@@ -1,5 +1,5 @@
 //PRINCIPAL CONTAINER
-const series = document.querySelectorAll('.series');
+const series = document.querySelector('.series');
 const movie = document.querySelectorAll('.movies');
 
 const buttonRight = document.getElementById('buttonRight');
@@ -13,7 +13,7 @@ buttonLeft.addEventListener('click', () => {
     series.scrollLeft -=  series.offsetWidth;
 });
 //ACTION CONTAINER
-const series1 = document.querySelectorAll('#series1');
+const series1 = document.querySelector('#series1');
 const movie1 = document.querySelectorAll('#movies1');
 
 const buttonRight1 = document.getElementById('buttonRight1');
@@ -86,12 +86,3 @@ buttonRight5.addEventListener('click', () => {
 buttonLeft5.addEventListener('click', () => {
     series5.scrollLeft -=  series5.offsetWidth;
 });
-
-//PAGES
-/*
-const pageNumber = Math.ceil(series.length/5);
-for(let i=0; i<pageNumber; i++){
-    const indicator = document.createElement('button');
-    document.querySelector('.mostPopularIndicator').appendChild(indicator);  
-}
-*/
