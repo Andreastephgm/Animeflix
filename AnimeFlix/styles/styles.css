@@ -57,6 +57,15 @@ header nav li a:hover{
     position:relative;
     
 }
+.containerTitle{
+    display: flex;
+    gap: 70em;
+}
+.popularIndicator button:hover{
+   background-color: red;
+   size: 100px;;
+}
+
 .h31{
     font-size: 50px;
     font-family: var(--subTitlesFont);
