@@ -14,7 +14,7 @@ header{
 }
 
 header h2{
-    color: white;
+    color: red;
     font-family: var(--titleFont);
     font-size: 40px;
     padding: 30px;
