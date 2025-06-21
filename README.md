@@ -76,7 +76,9 @@ Open the index.html file manually in your browser:
 cd Animeflix
 open index.html    # On macOS
 start index.html   # On Windows
-🌐 Deployment
+```
+
+## 🌐 Deployment
 This project is deployed using GitHub Pages.
 To deploy your own version:
 Fork or clone the repository.
@@ -85,12 +87,7 @@ Go to Settings > Pages in your GitHub repo.
 Select the source for deployment and save.
 Your site will be live shortly.
 
-
-### 🙋‍♀️ Author
+## 🙋‍♀️ Author
 Andrea Stefanny García Mejía
 📧 andreagarcia0203@hotmail.com
 GitHub | LinkedIn
-
-
-
-
