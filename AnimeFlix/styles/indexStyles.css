@@ -1,0 +1,93 @@
+:root {
+    --titleFont: "Luckiest Guy";
+    --subTitlesFont: "Patrick Hand SC";
+    --redColor: rgba(182, 28, 28, 0.8);
+    --colorYellow: #FFD700;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  header h2 {
+    color: white;
+    font-family: var(--titleFont);
+    font-size: 40px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  header nav li a {
+    color: var(--colorYellow);
+    font-size: 30px;
+    font-family: var(--subTitlesFont);
+    text-decoration: none;
+  }
+  
+  header nav li a:hover {
+    color: var(--redColor);
+  }
+  
+  #hero {
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url("/AnimeFlix/imagenes/backgroundIndex.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+  }
+  
+  .hero-content h1 {
+    font-size: 60px;
+    font-family: var(--titleFont);
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    font-family: var(--subTitlesFont);
+    margin-bottom: 30px;
+  }
+  
+  .btn-hero {
+    padding: 15px 30px;
+    font-size: 30px;
+    background-color: var(--redColor);
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-family: var(--subTitlesFont);
+    transition: background 0.3s ease;
+  }
+  
+  .btn-hero:hover {
+    background-color: crimson;
+  }
+  
+  

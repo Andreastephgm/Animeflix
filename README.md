@@ -10,7 +10,7 @@
 
 ### 🏠 Home Page
 
-![Animeflix Home](./assets/img/home-animeflix.png)
+![Animeflix Home](/AnimeFlix/imagenes/readme1.png)
 
 ---
 
