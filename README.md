@@ -68,7 +68,6 @@ Animeflix/
 4. Your default browser will automatically open the project.
 
 ### Option 2: Without Live Server
-
 1. Clone this repository:
 
 ```bash
@@ -85,7 +84,13 @@ Ensure index.html is in the root directory or on the gh-pages branch.
 Go to Settings > Pages in your GitHub repo.
 Select the source for deployment and save.
 Your site will be live shortly.
-🙋‍♀️ Author
+
+
+### 🙋‍♀️ Author
 Andrea Stefanny García Mejía
 📧 andreagarcia0203@hotmail.com
 GitHub | LinkedIn
+
+
+
+
