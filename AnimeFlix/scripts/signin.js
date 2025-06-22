@@ -1,34 +1,20 @@
-const form = document.getElementById('form');
-const username = document.getElementById('name');
-const password = document.getElementById('password');
-const email = document.getElementById('email');
-const alerts = document.getElementById('alerts');
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const password = document.getElementById("password");
+const form = document.getElementById("form");
 
-
-function validacion() {
-    let warnings = "";
-    let validate= true;
-    alerts.innerHTML = "";
-
-    if(username.value.length<4){
-        warnings += "The username must be at least 4 characters";
-        validate = false;
+function validateFields() {
+    if (name.value.trim() === "") {
+        alert("Name is required");
+        return false;
     }
-    if(password.value.length<8){
-        warnings += "The password must be at least 8 characters";
-        validate = false;
+    if (email.value.trim() === "") {
+        alert("Email is required");
+        return false;
     }
-    if(validate==false){
-        alerts.innerHTML = warnings;
-    }else{
-        alerts.innerHTML = "The user has been created successfully";
+    if (password.value.trim() === "") {
+        alert("Password is required");
+        return false;
     }
-    return validate;
+    return true;
 }
-form.addEventListener('submit', (e)=>{
-    if(validacion()){
-      fill.submit();
-    }else{
-      e.preventDefault();
-    }
-  });
