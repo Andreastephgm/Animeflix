@@ -85,7 +85,7 @@ src/
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/animeflix.git](https://github.com/your-username/animeflix.git)
+   git clone [https://github.com/Andreastephgm/Animeflix.git]
    cd animeflix
    ```
 
