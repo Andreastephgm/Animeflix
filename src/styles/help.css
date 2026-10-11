@@ -1,0 +1,127 @@
+/* ================= ESTILOS DE LA SECCIÓN DE AYUDA ================= */
+
+.help-main {
+  width: 100%;
+  min-height: 80vh;
+  background-color: var(--darkBg, #000);
+  padding: 50px 70px;
+  color: white;
+}
+
+.help-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.help-header h2 {
+  font-family: var(--titleFont);
+  font-size: 50px;
+  color: var(--neonRed, #ff1e38);
+  text-shadow: 0 0 15px rgba(255, 30, 56, 0.6);
+  margin-bottom: 10px;
+}
+
+.help-header p {
+  font-family: var(--subTitlesFont);
+  font-size: 18px;
+  color: #a1a1aa;
+}
+
+.help-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.help-container > h3 {
+  font-family: var(--titleFont);
+  font-size: 28px;
+  color: var(--neonYellow, #ffe600);
+  margin-bottom: 25px;
+  text-shadow: 0 0 10px rgba(255, 230, 0, 0.4);
+}
+
+/* Cuadrícula de preguntas frecuentes */
+.faq-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.faq-card {
+  background-color: #121216;
+  border: 2px solid rgba(255, 30, 56, 0.3);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.faq-card:hover {
+  border-color: var(--neonYellow, #ffe600);
+  box-shadow: 0 0 20px rgba(255, 230, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.faq-card h4 {
+  font-family: var(--subTitlesFont);
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.faq-card p {
+  font-family: var(--subTitlesFont);
+  font-size: 16px;
+  color: #d4d4d8;
+  line-height: 1.5;
+}
+
+/* Caja inferior de soporte */
+.help-support-box {
+  background-color: #0b0b0f;
+  border: 2px solid var(--neonRed, #ff1e38);
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(255, 30, 56, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.help-support-box h3 {
+  font-family: var(--titleFont);
+  font-size: 32px;
+  color: var(--neonYellow, #ffe600);
+  text-shadow: 0 0 10px rgba(255, 230, 0, 0.5);
+}
+
+.help-support-box p {
+  font-family: var(--subTitlesFont);
+  font-size: 16px;
+  color: #e4e4e7;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.help-contact-btn {
+  background-color: var(--neonRed, #ff1e38);
+  color: white;
+  border: 2px solid var(--neonYellow, #ffe600);
+  font-family: var(--titleFont);
+  font-size: 18px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 0 15px rgba(255, 30, 56, 0.6);
+  transition: all 0.3s ease;
+}
+
+.help-contact-btn:hover {
+  background-color: var(--neonYellow, #ffe600);
+  color: black;
+  box-shadow: 0 0 25px var(--neonYellow, #ffe600);
+  transform: scale(1.02);
+}

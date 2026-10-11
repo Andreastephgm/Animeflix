@@ -1,0 +1,303 @@
+/* ================= ESTILOS COMPLETOS Y CORREGIDOS PARA PREMIUM ================= */
+
+.premium-main {
+  background-color: var(--darkBg);
+  color: white;
+  width: 100%;
+}
+
+.premium {
+  width: 100%;
+  min-height: 450px;
+  background-image:
+    linear-gradient(rgba(5,5,5,0.6) 0%, rgba(5,5,5,0.4) 100%),
+    url("/src/assets/Tokyo-Revengers.jpeg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: bottom right, center center, bottom left;
+  background-size: 450px 400px, cover, cover;
+  display: flex;
+  align-items: center;
+  padding: 40px 70px;
+  border-bottom: 3px solid var(--neonRed);
+  box-shadow: inset 100px 400px 400px 200px rgba(0,0,0,0.8);
+}
+
+.premiumContent {
+  max-width: 600px;
+}
+
+.premiumContent h2 {
+  color: coral;
+  font-family: var(--titleFont);
+  font-size: 50px;
+  text-shadow: 2px 2px 0px #000, 0 0 15px rgba(255, 30, 56, 0.6);
+  margin-bottom: 20px;
+}
+
+.premium-btn {
+  color: var(--neonYellow);
+  background-color: crimson;
+  border: 2px solid var(--neonYellow);
+  font-family: var(--subTitlesFont);
+  font-size: 24px;
+  padding: 12px 24px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(220, 20, 60, 0.6);
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.premium-btn:hover {
+  background-color: var(--neonYellow);
+  color: black;
+  box-shadow: 0 0 25px var(--neonYellow);
+  transform: scale(1.02);
+}
+
+.premiumContent p {
+  color: antiquewhite;
+  max-width: 450px;
+  font-family: var(--subTitlesFont);
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* Título de características */
+.premiumAds {
+  color: coral;
+  font-family: var(--subTitlesFont);
+  font-size: 45px;
+  text-align: center;
+  margin: 50px 0 30px 0;
+  text-shadow: 0 0 10px rgba(255, 127, 80, 0.4);
+}
+
+/* 4. Bloque de ventajas (Imagen principal) */
+.premiumAds2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.premiumAds2 img {
+  width: 450px;
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 12px;
+  filter: drop-shadow(0 0 15px rgba(255, 30, 56, 0.4));
+}
+
+/* Quitamos los puntos de lista y organizamos las dos columnas */
+.lista1, .lista2 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  max-width: 280px;
+}
+
+/* Estilo para cada fila que contiene el icono y el texto */
+.lista1 li, .lista2 li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: var(--subTitlesFont, sans-serif);
+}
+
+/* Estilo unificado para los iconos amarillos de las listas */
+.lista1 i, .lista2 i {
+  color: var(--colorYellow, #FFD700);
+  font-size: 24px;
+  min-width: 30px;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(255, 230, 0, 0.5);
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+/* 5. Fondo de visualización offline */
+.premiumAds3 {
+  background-image: linear-gradient(rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 100%), url("/src/assets/premiumImage2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 80px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 400px 80px 200px rgba(0,0,0,1.5);
+}
+
+.premiumAds3 h3 {
+  color: coral;
+  font-size: 60px;
+  font-family: var(--subTitlesFont);
+  text-shadow: 0 0 12px rgba(255, 127, 80, 0.5);
+  margin-bottom: 10px;
+}
+
+.premiumAds3 p {
+  color: antiquewhite;
+  font-size: 18px;
+  font-family: var(--subTitlesFont);
+  max-width: 450px;
+  line-height: 1.5;
+}
+
+.premiumAds4 {
+  padding-left: 0;
+}
+
+/* 6. Sección de anime sin anuncios */
+.premiumAds5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+  background-color: #08080c;
+}
+
+.premiumAds5 img {
+  width: 380px;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid var(--neonRed);
+  box-shadow: 0 0 20px rgba(255, 30, 56, 0.3);
+}
+
+.premiumAds5 .p1 {
+  font-family: var(--titleFont);
+  font-size: 32px;
+  color: var(--neonYellow);
+  margin-bottom: 12px;
+  text-shadow: 0 0 10px rgba(255, 230, 0, 0.4);
+}
+
+.premiumAds5 .p2 {
+  font-family: var(--subTitlesFont);
+  font-size: 18px;
+  color: #d4d4d8;
+  max-width: 400px;
+  line-height: 1.4;
+}
+
+/* Sección de Planes */
+.plans {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.plans h2 {
+  font-family: var(--titleFont);
+  font-size: 48px;
+  color: var(--neonRed);
+  text-shadow: 0 0 15px var(--neonRed);
+  margin-bottom: 40px;
+}
+
+.planContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.containerPlan1, .containerPlan2, .containerPlan3 {
+  background-color: var(--cardBg, #121216);
+  border: 2px solid rgba(255, 30, 56, 0.4);
+  border-radius: 16px;
+  padding: 30px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.containerPlan1:hover, .containerPlan2:hover, .containerPlan3:hover {
+  transform: translateY(-8px);
+  border-color: var(--neonYellow);
+  box-shadow: 0 0 25px rgba(255, 230, 0, 0.3);
+}
+
+/* 7, 8, 9. Imágenes de coronas para los planes */
+.containerPlan1 img, .containerPlan2 img, .containerPlan3 img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 0 10px var(--neonYellow));
+}
+
+.plan1 h3, .plan2 h3, .plan3 h3 {
+  font-family: var(--titleFont);
+  font-size: 28px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-family: var(--titleFont);
+  font-size: 32px;
+  color: var(--neonYellow);
+  text-shadow: 0 0 10px rgba(255, 230, 0, 0.5);
+}
+
+.taxes {
+  font-size: 12px;
+  color: #a1a1aa;
+  margin-bottom: 20px;
+}
+
+.plan1 button, .plan2 button, .plan3 button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--neonRed);
+  color: white;
+  border: 2px solid var(--neonYellow);
+  font-family: var(--titleFont);
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(255, 30, 56, 0.5);
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.plan1 button:hover, .plan2 button:hover, .plan3 button:hover {
+  background-color: var(--neonYellow);
+  color: black;
+  box-shadow: 0 0 20px var(--neonYellow);
+}
+
+.skip {
+  font-size: 14px;
+  color: #71717a;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.watch, .stream {
+  font-size: 14px;
+  color: #d4d4d8;
+  margin: 8px 0;
+  font-family: var(--subTitlesFont);
+}
+
+.plus {
+  color: var(--neonRed);
+  font-weight: bold;
+  margin: 10px 0;
+}

@@ -1,93 +1,16 @@
-# 🎬 Animeflix
+# React + Vite
 
-**Animeflix** is a frontend web platform inspired by anime streaming sites. It was built using pure web technologies (HTML, CSS, and JavaScript) with a focus on clean, responsive design and intuitive navigation.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🔗 **Live preview**: [Animeflix Web](https://andreastephgm.github.io/Animeflix/)
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 📸 Project Preview
+## React Compiler
 
-### 🏠 Home Page
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-![Animeflix Home](/AnimeFlix/imagenes/readme1.png)
+## Expanding the ESLint configuration
 
----
-
-### 📄 Anime Details
-
-![Anime Details](./assets/img/detalle-animeflix.png)
-
----
-
-### 📱 Mobile Responsive View
-
-![Animeflix Mobile](./assets/img/responsive-animeflix.png)
-
----
-
-## 🚀 Features
-
-- 🎥 Anime gallery with eye-catching covers.
-- 🔍 Search functionality by name.
-- 🗂️ Visual filter by genre and category *(in progress)*.
-- 📱 Responsive design for desktop and mobile.
-- 🌐 Smooth navigation without page reloads using JavaScript.
-
----
-
-## 🛠️ Technologies Used
-
-- **HTML5** – Semantic structure of the site.
-- **CSS3** – Modern design with animations, flexbox, and media queries.
-- **Vanilla JavaScript** – Logic for search, interaction, and dynamic rendering.
-- **GitHub Pages** – Direct site deployment from GitHub.
-
----
-
-## 📁 Project Structure
-
-Animeflix/
-├── assets/
-│ ├── css/
-│ ├── img/
-│ └── js/
-├── index.html
-├── README.md
-└── ...
-
----
-
-## 🧪 How to Run Locally
-
-### Option 1: Using Live Server (recommended)
-
-1. Open the project with **Visual Studio Code**.
-2. Install the **Live Server** extension (if not already installed).
-3. Right-click on `index.html` and select **"Open with Live Server"**.
-4. Your default browser will automatically open the project.
-
-### Option 2: Without Live Server
-1. Clone this repository:
-
-```bash
-git clone https://github.com/Andreastephgm/Animeflix.git
-Open the index.html file manually in your browser:
-cd Animeflix
-open index.html    # On macOS
-start index.html   # On Windows
-```
-
-## 🌐 Deployment
-This project is deployed using GitHub Pages.
-To deploy your own version:
-Fork or clone the repository.
-Ensure index.html is in the root directory or on the gh-pages branch.
-Go to Settings > Pages in your GitHub repo.
-Select the source for deployment and save.
-Your site will be live shortly.
-
-## 🙋‍♀️ Author
-Andrea Stefanny García Mejía
-📧 andreagarcia0203@hotmail.com
-GitHub | LinkedIn
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

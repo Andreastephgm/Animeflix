@@ -1,0 +1,229 @@
+/* ================= ESTILOS DE CARRUSEL EN EL HOME ================= */
+
+.user-home-main {
+  width: 100%;
+  min-height: 85vh;
+  background-color: var(--darkBg, #000);
+  padding: 40px 60px;
+  color: white;
+}
+
+.user-welcome-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #121216 0%, #1a080c 100%);
+  border: 2px solid rgba(255, 30, 56, 0.4);
+  border-radius: 16px;
+  padding: 30px 40px;
+  margin-bottom: 45px;
+  box-shadow: 0 0 20px rgba(255, 30, 56, 0.2);
+}
+
+.user-info h2 {
+  font-family: var(--titleFont);
+  font-size: 36px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.highlight-user {
+  color: var(--neonYellow, #ffe600);
+  text-shadow: 0 0 10px rgba(255, 230, 0, 0.5);
+}
+
+.user-info p {
+  font-family: var(--subTitlesFont);
+  font-size: 16px;
+  color: #a1a1aa;
+}
+
+.user-avatar-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(255, 30, 56, 0.2);
+  border: 2px solid var(--neonRed, #ff1e38);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: var(--subTitlesFont);
+  font-size: 16px;
+  color: var(--neonYellow, #ffe600);
+}
+
+.user-avatar-badge i {
+  font-size: 20px;
+}
+
+/* Carriles de Categorías */
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.category-row-wrapper h3 {
+  font-family: var(--titleFont);
+  font-size: 26px;
+  color: var(--neonYellow, #ffe600);
+  margin-bottom: 15px;
+  text-shadow: 0 0 8px rgba(255, 230, 0, 0.3);
+}
+
+/* Contenedor relativo para posicionar las flechas del carrusel */
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Pista de desplazamiento horizontal */
+.category-row-track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 5px;
+  width: 100%;
+  scrollbar-width: none; /* Oculta scrollbar en Firefox */
+}
+
+.category-row-track::-webkit-scrollbar {
+  display: none; /* Oculta scrollbar en Chrome/Safari */
+}
+
+/* Tarjeta individual con ancho fijo para el carrusel */
+.home-anime-card {
+  min-width: 240px;
+  max-width: 240px;
+  background-color: #121216;
+  border: 2px solid rgba(255, 30, 56, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-anime-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--neonYellow, #ffe600);
+  box-shadow: 0 0 20px rgba(255, 230, 0, 0.25);
+}
+
+.home-anime-img {
+  position: relative;
+  width: 100%;
+  height: 160px;
+}
+
+.home-anime-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.badge-ep {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--neonRed, #ff1e38);
+  color: white;
+  font-family: var(--subTitlesFont);
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(255, 30, 56, 0.6);
+}
+
+.home-anime-details {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-anime-details h4 {
+  font-family: var(--titleFont);
+  font-size: 18px;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.play-row-btn {
+  background-color: var(--neonRed, #ff1e38);
+  color: white;
+  border: 2px solid var(--neonYellow, #ffe600);
+  font-family: var(--titleFont);
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.play-row-btn:hover {
+  background-color: var(--neonYellow, #ffe600);
+  color: black;
+  box-shadow: 0 0 15px var(--neonYellow, #ffe600);
+}
+
+/* Botones de navegación (Flechas laterales del carrusel) */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--neonRed, #ff1e38);
+  color: var(--neonYellow, #ffe600);
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 30, 56, 0.5);
+  opacity: 0.8;
+}
+
+.carousel-btn:hover {
+  background-color: var(--neonRed, #ff1e38);
+  color: white;
+  border-color: var(--neonYellow, #ffe600);
+  opacity: 1;
+  box-shadow: 0 0 20px var(--neonYellow, #ffe600);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-btn.left {
+  left: -20px;
+}
+
+.carousel-btn.right {
+  right: -20px;
+}
+.user-home-main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--darkBg, #000);
+  padding: 40px 60px 80px 60px; /* Padding inferior generoso para el scroll */
+  color: white;
+  overflow-y: auto; /* Permite el scroll vertical sin problemas */
+}
+
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 45px; /* Espacio elegante entre cada carril verticalmente */
+}

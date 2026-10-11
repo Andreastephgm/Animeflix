@@ -1,0 +1,94 @@
+/* ================= ESTILOS DE LA BARRA DE NAVEGACIÓN DEL USUARIO ================= */
+
+.user-navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #0b0b0f;
+  border-bottom: 2px solid rgba(255, 30, 56, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(255, 30, 56, 0.2);
+}
+
+.user-nav-brand {
+  cursor: pointer;
+}
+
+.user-nav-brand h1 {
+  font-family: var(--titleFont);
+  font-size: 28px;
+  color: var(--neonRed, #ff1e38);
+  text-shadow: 0 0 10px rgba(255, 30, 56, 0.6);
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.user-nav-brand h1 span {
+  color: var(--neonYellow, #ffe600);
+  text-shadow: 0 0 10px rgba(255, 230, 0, 0.6);
+}
+
+.user-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Botón de Perfil */
+.user-profile-btn {
+  background-color: transparent;
+  border: 2px solid rgba(255, 230, 0, 0.4);
+  color: white;
+  font-family: var(--subTitlesFont);
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.user-profile-btn i {
+  color: var(--neonYellow, #ffe600);
+  font-size: 18px;
+}
+
+.user-profile-btn:hover {
+  border-color: var(--neonYellow, #ffe600);
+  box-shadow: 0 0 12px rgba(255, 230, 0, 0.3);
+  background-color: rgba(255, 230, 0, 0.05);
+}
+
+/* Botón de Cerrar Sesión */
+.logout-btn {
+  background-color: rgba(255, 30, 56, 0.15);
+  border: 2px solid var(--neonRed, #ff1e38);
+  color: white;
+  font-family: var(--subTitlesFont);
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.logout-btn i {
+  color: var(--neonRed, #ff1e38);
+  font-size: 16px;
+}
+
+.logout-btn:hover {
+  background-color: var(--neonRed, #ff1e38);
+  color: black;
+  box-shadow: 0 0 15px rgba(255, 30, 56, 0.6);
+}
